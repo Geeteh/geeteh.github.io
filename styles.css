@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styling to headings */
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+/* Create a container for the main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Style links */
+a {
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#about {
+  margin-top: 40px;
+}
+
+#about img {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+
+#projects {
+  margin-top: 40px;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project h2 {
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin-bottom: 15px;
+}
+
+.project a {
+  display: block;
+  margin-bottom: 5px;
+  color: #007BFF;
+}
