@@ -1,71 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Web Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Drake Geeteh - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project {
+            background-color: #e7e7e7;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="about">
-            <h1>About Me</h1>
-            <img src="path/to/your/profile-picture.jpg" alt="Your Name">
-            <p>
-                Write a brief introduction about yourself, your background, skills, and what you are passionate about.
-            </p>
-        </section>
+<header>
+    <h1>Drake Geeteh</h1>
+    <p>Computer Science Student | App Developer | Aspiring Machine Learning Researcher</p>
+</header>
 
-        <section id="projects">
-            <h1>Projects</h1>
-            <!-- Display your projects with descriptions and links to the GitHub repositories or live demos. -->
-            <div class="project">
-                <h2>Project Name 1</h2>
-                <p>
-                    Description of the project goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <a href="https://github.com/your-username/project1">GitHub Repository</a>
-                <a href="https://project1-demo-url.com">Live Demo</a>
-            </div>
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Drake Geeteh, a 3rd-year Computer Science student at Oklahoma State University with a passion for app design and development. I have a strong interest in machine learning and am eager to gain more research experience in this area. My goal is to contribute to innovative projects that merge creativity with technical expertise.</p>
+</section>
 
-            <div class="project">
-                <h2>Project Name 2</h2>
-                <p>
-                    Description of the project goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <a href="https://github.com/your-username/project2">GitHub Repository</a>
-                <a href="https://project2-demo-url.com">Live Demo</a>
-            </div>
-            <!-- Add more project entries as needed. -->
-        </section>
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+        <!-- Add your project details here -->
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of the project.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of the project.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>Description of the project.</p>
+        </div>
+    </div>
+</section>
 
-        <section id="contact">
-            <h1>Contact Me</h1>
-            <p>
-                You can reach me at: your.email@example.com
-            </p>
-            <!-- You can also add social media or other contact options here. -->
-        </section>
-    </main>
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:drake.geeteh@okstate.edu">drake.geeteh@okstate.edu</a></p>
+    <p>Phone: <a href="tel:+19188523027">918-852-3027</a></p>
+    <p>GitHub: <a href="https://github.com/Geeteh/" target="_blank">https://github.com/Geeteh/</a></p>
+</section>
 
-    <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
-    </footer>
+<footer>
+    <p>&copy; 2024 Drake Geeteh. All rights reserved.</p>
+</footer>
 
-    <!-- Optional: You can include a JavaScript file for additional functionality if needed. -->
-    <!-- <script src="script.js"></script> -->
 </body>
-
 </html>
